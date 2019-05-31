@@ -16,8 +16,3 @@ Then query it from PrestoDB. You can get [presto.jar](https://prestosql.io/docs/
   $ ./presto.jar --server localhost:8080 --catalog hive --schema default
   presto> select * from pokes;
 ```
-
-## Contributors
-* Ivan Ermilov [@earthquakesan](https://github.com/earthquakesan) (maintainer)
-* Yiannis Mouchakis [@gmouchakis](https://github.com/gmouchakis)
-* Ke Zhu [@shawnzhu](https://github.com/shawnzhu)
